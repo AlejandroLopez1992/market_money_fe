@@ -14,4 +14,12 @@ class Vendor
     @contact_phone = attributes[:attributes][:contact_phone]
     @credit_accepted = attributes[:attributes][:credit_accepted]
   end
+
+  def credit
+    if @credit_accepted == false
+      "false"
+    else
+      "true"
+    end
+  end
 end

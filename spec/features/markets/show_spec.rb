@@ -1,6 +1,6 @@
 require 'rails_helper'
 RSpec.describe "markets#show", :vcr do
-  describe "display" do
+  describe "Page display" do
     it "shows market name, address, and list of vendors", :vcr do
       market = MarketFacade.new(325686).market
 
@@ -39,6 +39,11 @@ RSpec.describe "markets#show", :vcr do
         expect(page).to have_link("The Corny Copia")
         expect(page).to have_link("Pupperoni Pizza")
       end
+
+      within("#vendors") do
+      click_link("Bee-licious Honey")
+      expect(current_path).to eq(vendor_path(54967))
+    end
     end
   end
 end
