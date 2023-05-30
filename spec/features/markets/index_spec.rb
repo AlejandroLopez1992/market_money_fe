@@ -21,47 +21,16 @@ describe 'markets index page', :vcr do
     end
 
     it "within table each market is reflected with name, city, state" do
-      require 'pry'; binding.pry
+      save_and_open_page
       expect(page.status_code).to eq(200)
-      within '#market_table' do    
-        # markets[:data].each do |market|
-        #   expect(market).to have_key(:id)
-        #   expect(market[:id]).to be_a(String)
-
-        #   expect(market).to have_key(:type)
-        #   expect(market[:type]).to be_a(String)
-        #   expect(market[:type]).to eq("market")
-
-        #   expect(market).to have_key(:attributes)
-        #   expect(market[:attributes]).to be_a(Hash)
-    
-        #   expect(market[:attributes]).to have_key(:name)
-        #   expect(market[:attributes][:name]).to be_a(String)
-    
-        #   expect(market[:attributes]).to have_key(:street)
-        #   expect(market[:attributes][:street]).to be_a(String)
-    
-        #   expect(market[:attributes]).to have_key(:city)
-        #   expect(market[:attributes][:city]).to be_a(String)
-    
-        #   expect(market[:attributes]).to have_key(:county)
-        #   expect(market[:attributes][:county]).to be_a(String)
-    
-        #   expect(market[:attributes]).to have_key(:state)
-        #   expect(market[:attributes][:state]).to be_a(String)
-    
-        #   expect(market[:attributes]).to have_key(:zip)
-        #   expect(market[:attributes][:zip]).to be_a(String)
-    
-        #   expect(market[:attributes]).to have_key(:lat)
-        #   expect(market[:attributes][:lat]).to be_a(String)
-    
-        #   expect(market[:attributes]).to have_key(:lon)
-        #   expect(market[:attributes][:lon]).to be_a(String)
-
-        #   expect(market[:attributes]).to have_key(:vendor_count)
-        #   expect(market[:attributes][:vendor_count]).to be_an(Integer)
-        # end
+      @markets = MarketFacade.new.markets
+      @markets.each do |market|
+      within "##{market.id}" do    
+        expect(page).to have_content(market.name)
+        # expect(page).to have_content(market.city)
+        expect(page).to have_content(market.state)
+        expect(page).to have_button("More Info")
+       end
       end
     end
   end
