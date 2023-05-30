@@ -9,4 +9,16 @@ class MarketFacade
       Market.new(market_info)
     end
   end
+
+  def market
+    data = MarketMoneyService.new.market(@id)
+    Market.new(data[:data])
+  end
+
+  def vendors
+    data = MarketMoneyService.new.vendors(@id)
+    @_vendors ||= data[:data].map do |vendor_info|
+      Vendor.new(vendor_info)
+    end
+  end
 end

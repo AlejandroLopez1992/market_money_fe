@@ -12,4 +12,12 @@ class MarketMoneyService
   def markets
     get_url("api/v0/markets")
   end
+
+  def market(id)
+    get_url("api/v0/markets/#{id}")
+  end
+
+  def vendors(id)
+    get_url("/api/v0/markets/#{id}/vendors")
+  end
 end

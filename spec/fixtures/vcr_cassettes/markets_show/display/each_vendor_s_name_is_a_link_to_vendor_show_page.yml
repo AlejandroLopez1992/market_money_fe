@@ -1,0 +1,390 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/markets/325686
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7e9726176e635acd95a2cb22c9b1c332"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e0996f50-ad19-4c78-8324-f07414288fa8
+      X-Runtime:
+      - '0.008818'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=2.93, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=4.35
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"325686","type":"market","attributes":{"name":"Greenwich
+        Farmers Market","street":"Town Hall parking lot, Field Point Road","city":"Greenwich","county":"Fairfield","state":"Connecticut","zip":"06830","lat":"41.0355","lon":"-73.6282","vendor_count":12},"relationships":{"market_vendors":{"data":[{"id":"442814","type":"market_vendor"},{"id":"442815","type":"market_vendor"},{"id":"442816","type":"market_vendor"},{"id":"442817","type":"market_vendor"},{"id":"442818","type":"market_vendor"},{"id":"442819","type":"market_vendor"},{"id":"442820","type":"market_vendor"},{"id":"442821","type":"market_vendor"},{"id":"442822","type":"market_vendor"},{"id":"442823","type":"market_vendor"},{"id":"442824","type":"market_vendor"},{"id":"442825","type":"market_vendor"}]},"vendors":{"data":[{"id":"54967","type":"vendor"},{"id":"55734","type":"vendor"},{"id":"56088","type":"vendor"},{"id":"55321","type":"vendor"},{"id":"55773","type":"vendor"},{"id":"55851","type":"vendor"},{"id":"55428","type":"vendor"},{"id":"55383","type":"vendor"},{"id":"56530","type":"vendor"},{"id":"56109","type":"vendor"},{"id":"55119","type":"vendor"},{"id":"55575","type":"vendor"}]}}}}'
+  recorded_at: Tue, 30 May 2023 02:18:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/markets/325686
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7e9726176e635acd95a2cb22c9b1c332"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - dc97c1b6-2626-4bd9-9398-f654bf6dd700
+      X-Runtime:
+      - '0.008061'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=2.65, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=3.88
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"325686","type":"market","attributes":{"name":"Greenwich
+        Farmers Market","street":"Town Hall parking lot, Field Point Road","city":"Greenwich","county":"Fairfield","state":"Connecticut","zip":"06830","lat":"41.0355","lon":"-73.6282","vendor_count":12},"relationships":{"market_vendors":{"data":[{"id":"442814","type":"market_vendor"},{"id":"442815","type":"market_vendor"},{"id":"442816","type":"market_vendor"},{"id":"442817","type":"market_vendor"},{"id":"442818","type":"market_vendor"},{"id":"442819","type":"market_vendor"},{"id":"442820","type":"market_vendor"},{"id":"442821","type":"market_vendor"},{"id":"442822","type":"market_vendor"},{"id":"442823","type":"market_vendor"},{"id":"442824","type":"market_vendor"},{"id":"442825","type":"market_vendor"}]},"vendors":{"data":[{"id":"54967","type":"vendor"},{"id":"55734","type":"vendor"},{"id":"56088","type":"vendor"},{"id":"55321","type":"vendor"},{"id":"55773","type":"vendor"},{"id":"55851","type":"vendor"},{"id":"55428","type":"vendor"},{"id":"55383","type":"vendor"},{"id":"56530","type":"vendor"},{"id":"56109","type":"vendor"},{"id":"55119","type":"vendor"},{"id":"55575","type":"vendor"}]}}}}'
+  recorded_at: Tue, 30 May 2023 02:18:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/markets/325686
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7e9726176e635acd95a2cb22c9b1c332"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 56f05e01-ab88-4056-9475-d811e5d46e8e
+      X-Runtime:
+      - '0.010773'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=5.22, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=6.50
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"325686","type":"market","attributes":{"name":"Greenwich
+        Farmers Market","street":"Town Hall parking lot, Field Point Road","city":"Greenwich","county":"Fairfield","state":"Connecticut","zip":"06830","lat":"41.0355","lon":"-73.6282","vendor_count":12},"relationships":{"market_vendors":{"data":[{"id":"442814","type":"market_vendor"},{"id":"442815","type":"market_vendor"},{"id":"442816","type":"market_vendor"},{"id":"442817","type":"market_vendor"},{"id":"442818","type":"market_vendor"},{"id":"442819","type":"market_vendor"},{"id":"442820","type":"market_vendor"},{"id":"442821","type":"market_vendor"},{"id":"442822","type":"market_vendor"},{"id":"442823","type":"market_vendor"},{"id":"442824","type":"market_vendor"},{"id":"442825","type":"market_vendor"}]},"vendors":{"data":[{"id":"54967","type":"vendor"},{"id":"55734","type":"vendor"},{"id":"56088","type":"vendor"},{"id":"55321","type":"vendor"},{"id":"55773","type":"vendor"},{"id":"55851","type":"vendor"},{"id":"55428","type":"vendor"},{"id":"55383","type":"vendor"},{"id":"56530","type":"vendor"},{"id":"56109","type":"vendor"},{"id":"55119","type":"vendor"},{"id":"55575","type":"vendor"}]}}}}'
+  recorded_at: Tue, 30 May 2023 02:18:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/markets/325686
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7e9726176e635acd95a2cb22c9b1c332"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3f730d7d-3c58-48ca-824f-4dbecd48b359
+      X-Runtime:
+      - '0.009865'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=2.77, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=5.64
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"325686","type":"market","attributes":{"name":"Greenwich
+        Farmers Market","street":"Town Hall parking lot, Field Point Road","city":"Greenwich","county":"Fairfield","state":"Connecticut","zip":"06830","lat":"41.0355","lon":"-73.6282","vendor_count":12},"relationships":{"market_vendors":{"data":[{"id":"442814","type":"market_vendor"},{"id":"442815","type":"market_vendor"},{"id":"442816","type":"market_vendor"},{"id":"442817","type":"market_vendor"},{"id":"442818","type":"market_vendor"},{"id":"442819","type":"market_vendor"},{"id":"442820","type":"market_vendor"},{"id":"442821","type":"market_vendor"},{"id":"442822","type":"market_vendor"},{"id":"442823","type":"market_vendor"},{"id":"442824","type":"market_vendor"},{"id":"442825","type":"market_vendor"}]},"vendors":{"data":[{"id":"54967","type":"vendor"},{"id":"55734","type":"vendor"},{"id":"56088","type":"vendor"},{"id":"55321","type":"vendor"},{"id":"55773","type":"vendor"},{"id":"55851","type":"vendor"},{"id":"55428","type":"vendor"},{"id":"55383","type":"vendor"},{"id":"56530","type":"vendor"},{"id":"56109","type":"vendor"},{"id":"55119","type":"vendor"},{"id":"55575","type":"vendor"}]}}}}'
+  recorded_at: Tue, 30 May 2023 02:18:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/markets/325686
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7e9726176e635acd95a2cb22c9b1c332"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 35a2a8aa-4507-422c-a596-95c7502c7664
+      X-Runtime:
+      - '0.008233'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.12, sql.active_record;dur=2.81, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=4.06
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"325686","type":"market","attributes":{"name":"Greenwich
+        Farmers Market","street":"Town Hall parking lot, Field Point Road","city":"Greenwich","county":"Fairfield","state":"Connecticut","zip":"06830","lat":"41.0355","lon":"-73.6282","vendor_count":12},"relationships":{"market_vendors":{"data":[{"id":"442814","type":"market_vendor"},{"id":"442815","type":"market_vendor"},{"id":"442816","type":"market_vendor"},{"id":"442817","type":"market_vendor"},{"id":"442818","type":"market_vendor"},{"id":"442819","type":"market_vendor"},{"id":"442820","type":"market_vendor"},{"id":"442821","type":"market_vendor"},{"id":"442822","type":"market_vendor"},{"id":"442823","type":"market_vendor"},{"id":"442824","type":"market_vendor"},{"id":"442825","type":"market_vendor"}]},"vendors":{"data":[{"id":"54967","type":"vendor"},{"id":"55734","type":"vendor"},{"id":"56088","type":"vendor"},{"id":"55321","type":"vendor"},{"id":"55773","type":"vendor"},{"id":"55851","type":"vendor"},{"id":"55428","type":"vendor"},{"id":"55383","type":"vendor"},{"id":"56530","type":"vendor"},{"id":"56109","type":"vendor"},{"id":"55119","type":"vendor"},{"id":"55575","type":"vendor"}]}}}}'
+  recorded_at: Tue, 30 May 2023 02:18:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/markets/325686
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7e9726176e635acd95a2cb22c9b1c332"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e5cee798-6d67-4bbd-8d46-7df141ab412e
+      X-Runtime:
+      - '0.008152'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=2.71, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=3.94
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"325686","type":"market","attributes":{"name":"Greenwich
+        Farmers Market","street":"Town Hall parking lot, Field Point Road","city":"Greenwich","county":"Fairfield","state":"Connecticut","zip":"06830","lat":"41.0355","lon":"-73.6282","vendor_count":12},"relationships":{"market_vendors":{"data":[{"id":"442814","type":"market_vendor"},{"id":"442815","type":"market_vendor"},{"id":"442816","type":"market_vendor"},{"id":"442817","type":"market_vendor"},{"id":"442818","type":"market_vendor"},{"id":"442819","type":"market_vendor"},{"id":"442820","type":"market_vendor"},{"id":"442821","type":"market_vendor"},{"id":"442822","type":"market_vendor"},{"id":"442823","type":"market_vendor"},{"id":"442824","type":"market_vendor"},{"id":"442825","type":"market_vendor"}]},"vendors":{"data":[{"id":"54967","type":"vendor"},{"id":"55734","type":"vendor"},{"id":"56088","type":"vendor"},{"id":"55321","type":"vendor"},{"id":"55773","type":"vendor"},{"id":"55851","type":"vendor"},{"id":"55428","type":"vendor"},{"id":"55383","type":"vendor"},{"id":"56530","type":"vendor"},{"id":"56109","type":"vendor"},{"id":"55119","type":"vendor"},{"id":"55575","type":"vendor"}]}}}}'
+  recorded_at: Tue, 30 May 2023 02:18:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/markets/325686/vendors
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"e991f56480508d20659f2adec8fdb7d8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 11b3890f-6e68-4ecc-9b1c-82b4d755e815
+      X-Runtime:
+      - '0.026196'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=17.95,
+        instantiation.active_record;dur=0.07, process_action.action_controller;dur=22.03
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"54967","type":"vendor","attributes":{"name":"Bee-licious
+        Honey","description":"This vendor sells locally sourced honey and honey-based
+        products.","contact_name":"Jonathan Monahan","contact_phone":"(184) 190-2125","credit_accepted":false,"states_sold_in":["Connecticut"]}},{"id":"55734","type":"vendor","attributes":{"name":"Flower
+        Power","description":"All-natural skincare products made with flower infusions.","contact_name":"Antione
+        Murazik V","contact_phone":"259-648-3829","credit_accepted":true,"states_sold_in":["Connecticut"]}},{"id":"56088","type":"vendor","attributes":{"name":"Jazzy
+        Jams","description":"Creative and unique flavored jams and preserves.","contact_name":"Jude
+        Wyman","contact_phone":"661.407.5369","credit_accepted":true,"states_sold_in":["Connecticut"]}},{"id":"55321","type":"vendor","attributes":{"name":"Siskiyou
+        Sweets","description":"Handmade candies and confections","contact_name":"Ewa
+        Anderson PhD","contact_phone":"162.806.6922","credit_accepted":true,"states_sold_in":["Connecticut"]}},{"id":"55773","type":"vendor","attributes":{"name":"Root
+        Awakening","description":"Vendor selling a variety of root vegetables.","contact_name":"Dudley
+        Daniel","contact_phone":"(536) 359-9350","credit_accepted":false,"states_sold_in":["Connecticut"]}},{"id":"55851","type":"vendor","attributes":{"name":"The
+        Meatball Mania","description":"Vendor selling a variety of meatball products
+        and cuts.","contact_name":"Maxima Gerhold","contact_phone":"961.146.1440","credit_accepted":false,"states_sold_in":["Connecticut"]}},{"id":"55428","type":"vendor","attributes":{"name":"It''s
+        All Gravy","description":"Homemade gravies and sauces","contact_name":"Catrice
+        Armstrong Sr.","contact_phone":"225-532-2246","credit_accepted":false,"states_sold_in":["Connecticut"]}},{"id":"55383","type":"vendor","attributes":{"name":"Spice
+        Girlz","description":"Spices and seasonings for every meal","contact_name":"Sen.
+        Everette Brown","contact_phone":"969.625.3208","credit_accepted":false,"states_sold_in":["Connecticut"]}},{"id":"56530","type":"vendor","attributes":{"name":"The
+        Canvas Connection","description":"Hand-painted canvases with a variety of
+        styles and themes","contact_name":"Ethelene Schiller","contact_phone":"401.901.3082","credit_accepted":true,"states_sold_in":["Connecticut"]}},{"id":"56109","type":"vendor","attributes":{"name":"Exotic
+        Eats","description":"Exotic and unique flavors from around the world.","contact_name":"Dr.
+        Ray Tillman","contact_phone":"478.472.9754","credit_accepted":false,"states_sold_in":["Connecticut"]}},{"id":"55119","type":"vendor","attributes":{"name":"The
+        Corny Copia","description":"sweet corn and corn-based dishes","contact_name":"Amb.
+        Dominique Pacocha","contact_phone":"710.914.7211","credit_accepted":false,"states_sold_in":["Connecticut"]}},{"id":"55575","type":"vendor","attributes":{"name":"Pupperoni
+        Pizza","description":"Gourmet dog treats in pizza shapes and flavors","contact_name":"Curtis
+        Rosenbaum","contact_phone":"(134) 280-4351","credit_accepted":true,"states_sold_in":["Connecticut"]}}]}'
+  recorded_at: Tue, 30 May 2023 02:18:58 GMT
+recorded_with: VCR 6.1.0

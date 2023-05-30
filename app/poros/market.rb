@@ -1,6 +1,7 @@
 class Market
   attr_reader :id,
               :name,
+              :street,
               :city,
               :county,
               :state,
@@ -12,6 +13,7 @@ class Market
   def initialize(attributes)
     @id = attributes[:id]
     @name = attributes[:attributes][:name]
+    @street = attributes[:attributes][:street]
     @city = attributes[:attributes][:city]
     @county = attributes[:attributes][:county]
     @state = attributes[:attributes][:state]

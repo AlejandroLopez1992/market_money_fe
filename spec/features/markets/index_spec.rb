@@ -21,7 +21,7 @@ describe 'markets index page', :vcr do
     end
 
     it "within table each market is reflected with name, city, state" do
-      save_and_open_page
+      
       expect(page.status_code).to eq(200)
       @markets = MarketFacade.new.markets
       @markets.each do |market|
@@ -31,6 +31,15 @@ describe 'markets index page', :vcr do
         expect(page).to have_content(market.state)
         expect(page).to have_button("More Info")
        end
+      end
+    end
+
+    it "when More Info button is clicked a redirect to that market show page happens" do
+      @market1 = MarketFacade.new.markets.first
+
+      within "##{@market1.id}" do
+        click_on "More Info"
+        expect(current_path).to eq(market_path(@market1.id))
       end
     end
   end
